@@ -12,7 +12,7 @@ html {
   overflow: hidden;
   width: 100%;
   top: 0;
-  z-index: 99;
+  z-index: 1;
 
   display: flex;
   justify-content: flex-end;
@@ -174,7 +174,7 @@ $font-stack: Arial, Helvetica, sans-serif;
 .modal {
   display: none; 
   position: fixed;
-  z-index: 1; 
+  z-index: 2; 
   left: 0;
   top: 0;
   width: 100%;
